@@ -1,17 +1,29 @@
+*{
+    margin: 1;
+    padding: 1;
+}
 header{
-    font-size: 20px;
+    font-size: 22px;
     color: black;
-    background-color: aquamarine;
-    height: 100px;
-    border: 1px solid black;
-  
+    height: 85px;
+    
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-  
+    
+}
+
+button{
+    font-size: 20px;
+    color: black;
+    background-color: gainsboro;
+    height: 50px;
+    border: 1px;
+    border-radius: 4px; 
 }
 
 .Logo{
@@ -36,15 +48,4 @@ body{
 .d{
     text-align: center;
     font-size: 20px;
-}
-
-footer{
-    font-size: 20px;
-    color: black;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: auto;
-    align-items: center;
 }
