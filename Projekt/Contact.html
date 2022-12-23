@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script type="text/javascript" src="js/main.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-        </style>
-	<title></title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style/log-in.css">
+    <script src="style/log-in.js"></script>
 </head>
 <body>
-
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">IT</label>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="log-in.html">Login/Register</a></li>
-        </ul>
-      </nav>
-      <section></section>
-
+    <div class="container">
+        <form class="form" id="contactInfo">
+            <h1 class="form__title">Fill Contact Information</h1>
+            <div class="form__input-group">
+                <input type="text" id="name" class="form__input" autofocus placeholder="Name" required>
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Email" required>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Subject" required>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="You're Message" required>
+            </div>
+            <button class="form__button" type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
