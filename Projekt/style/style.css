@@ -160,18 +160,161 @@ margin-top: 10px;
   }
 }
 
-.w{
+.h1{
   text-align: center;
+  margin: 20px 0 20px 0;
 }
 
-.container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.view{
+
+  padding-top: 20px;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.view .product{
+
+    width: auto;
+    
+}
+
+.product img{
+    width: 75%;
+
+}
+
+
+.product p {
+  margin-top: 15px;
+}
+
+
+.overlay,  .overlay3, .overlay5{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 130, 230,0.9);;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.overlay2, .overlay4, .overlay6{
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(0, 130, 230,0.9);;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+
+}
+
+
+  .text {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
   
+.product .cisco{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .cisco:hover .overlay{
+  width: 100%;
 }
 
-img{
-  width: 200px;
+.product .switch{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .switch:hover .overlay2{
+  width: 100%;
+  left: 0px;
+}
 
+.product .lynx{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .lynx:hover .overlay3{
+  width: 100%;
+}
+
+.product .dell{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .dell:hover .overlay4{
+  width: 100%;
+  left: 0;
+}
+
+.product .tp{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .tp:hover .overlay5{
+  width: 100%;
+}
+
+.product .router{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  margin: 25px 0 25px 0;
+  padding: 15px;
+  margin-left: 25%;
+  box-shadow: 2px 2px 50px 2px #aaaaaa;
+}
+.product .router:hover .overlay6{
+  width: 100%;
+  left: 0;
 }
