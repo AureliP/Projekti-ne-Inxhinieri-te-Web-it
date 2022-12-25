@@ -150,8 +150,7 @@ margin-top: 10px;
 }
 
 .button:hover {
-  background-color: #555;
-}
+  background-color: #
 
 @media screen and (max-width: 650px) {
   .column {
